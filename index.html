@@ -42,10 +42,7 @@ body{
   font-size:.92rem;
   line-height:1.45
 }
-.top-banner .highlight{
-  font-weight:900;
-  color:#ffe28a
-}
+.top-banner .highlight{font-weight:900;color:#ffe28a}
 .start-card{
   text-align:center;
   padding:20px 18px;
@@ -66,9 +63,10 @@ body{
   box-shadow:0 6px 15px rgba(11,122,117,.22)
 }
 .start-btn:active{transform:translateY(1px)}
+
 .hero{
   position:relative;
-  min-height:360px;
+  min-height:380px;
   color:#fff;
   margin-bottom:12px
 }
@@ -83,12 +81,12 @@ body{
   content:"";
   position:absolute;
   inset:0;
-  background:linear-gradient(180deg,rgba(4,38,58,.12),rgba(4,38,58,.84))
+  background:linear-gradient(180deg,rgba(4,38,58,.08),rgba(4,38,58,.84))
 }
 .hero-content{
   position:relative;
   z-index:2;
-  min-height:360px;
+  min-height:380px;
   display:flex;
   flex-direction:column;
   justify-content:flex-end;
@@ -100,16 +98,8 @@ body{
   letter-spacing:1.4px;
   text-transform:uppercase
 }
-.hero h1{
-  margin:7px 0 8px;
-  font-size:2rem;
-  line-height:1.08
-}
-.hero-sub{
-  margin:0;
-  font-size:1rem;
-  max-width:640px
-}
+.hero h1{margin:7px 0 8px;font-size:2rem;line-height:1.08}
+.hero-sub{margin:0;font-size:1rem;max-width:640px}
 .hero-tag{
   display:inline-block;
   margin-top:13px;
@@ -122,6 +112,7 @@ body{
   width:max-content;
   max-width:100%
 }
+
 .welcome{
   padding:20px 18px;
   text-align:center;
@@ -129,6 +120,7 @@ body{
 }
 .welcome h2{margin:0 0 6px;font-size:1.3rem}
 .welcome p{margin:0;color:#607487}
+
 .survey-card{margin-bottom:12px}
 .survey-card-inner{padding:20px}
 .survey-badge{
@@ -141,15 +133,8 @@ body{
   font-weight:950;
   letter-spacing:.7px
 }
-.survey-card h2{
-  margin:9px 0 7px;
-  font-size:1.3rem
-}
-.survey-card p{
-  margin:8px 0;
-  color:#536b7e;
-  font-size:.92rem
-}
+.survey-card h2{margin:9px 0 7px;font-size:1.3rem}
+.survey-card p{margin:8px 0;color:#536b7e;font-size:.92rem}
 .survey-highlight{
   margin-top:13px;
   padding:12px;
@@ -165,6 +150,7 @@ body{
   font-size:.84rem;
   font-weight:700
 }
+
 .bonus{margin:12px 0}
 .bonus-inner{
   display:flex;
@@ -178,13 +164,14 @@ body{
 }
 .bonus-icon{font-size:1.8rem}
 .bonus-inner strong{font-weight:950}
+
 .section{
   padding:0 0 20px;
   margin-bottom:12px
 }
-.hotel-photo{
+.gift-photo{
   width:100%;
-  height:245px;
+  height:260px;
   object-fit:cover;
   display:block
 }
@@ -227,6 +214,7 @@ body{
   color:#0b6c68;
   font-weight:950
 }
+
 .modal-overlay{
   position:fixed;
   inset:0;
@@ -260,10 +248,7 @@ body{
   color:#71808b;
   cursor:pointer
 }
-.modal h3{
-  margin:0 32px 12px 0;
-  font-size:1.35rem
-}
+.modal h3{margin:0 32px 12px 0;font-size:1.35rem}
 .safety,.survey{
   background:#f6fafb;
   border:1px solid #dce8ed;
@@ -320,10 +305,7 @@ body{
 }
 .choice:hover{border-color:#0b7a75}
 .choice-icon{font-size:2rem;margin-bottom:5px}
-.choice strong{
-  display:block;
-  font-size:.95rem
-}
+.choice strong{display:block;font-size:.95rem}
 .choice span{
   display:block;
   margin-top:5px;
@@ -408,11 +390,7 @@ body{
   outline:none
 }
 .email-box input:focus{border-color:#0b7a75}
-.email-note{
-  font-size:.78rem;
-  color:#71808b;
-  margin-top:6px
-}
+.email-note{font-size:.78rem;color:#71808b;margin-top:6px}
 .status{
   margin-top:9px;
   font-size:.83rem;
@@ -421,11 +399,7 @@ body{
 }
 .status.success{color:#08734f}
 .status.error{color:#b33a31}
-.zoom-note{
-  margin-top:12px;
-  font-size:.82rem;
-  color:#667d8d
-}
+.zoom-note{margin-top:12px;font-size:.82rem;color:#667d8d}
 .back{
   border:0;
   background:transparent;
@@ -435,11 +409,12 @@ body{
   cursor:pointer;
   padding:5px 0
 }
+
 @media(max-width:560px){
   .container{padding:9px}
-  .hero,.hero-content{min-height:330px}
+  .hero,.hero-content{min-height:340px}
   .hero h1{font-size:1.72rem}
-  .hotel-photo{height:205px}
+  .gift-photo{height:215px}
   .choice-grid{grid-template-columns:1fr}
   .choice{min-height:auto}
   .survey-card-inner{padding:17px}
@@ -453,9 +428,7 @@ body{
 <div class="container">
 
   <div class="top-banner">
-
     <span class="main">NO PURCHASE IS REQUIRED</span>
-
     <span class="message">
       You do not need to pay anything in order to receive your Resort Stay Certificate.
       As long as you
@@ -465,27 +438,22 @@ body{
       <br>
       <span class="highlight">NOT A TIMESHARE.</span>
     </span>
-
   </div>
 
   <section class="card start-card">
-
     <h2>Here’s Your Next Step</h2>
-
     <p>Welcome, and thank you for finding time to join.</p>
-
     <button class="start-btn" id="startBtnTop">
       CLICK HERE TO START WATCHING THE PRESENTATION
     </button>
-
   </section>
 
   <section class="card hero">
 
     <img
       class="hero-bg"
-      src="https://upload.wikimedia.org/wikipedia/commons/5/55/Playa_Dorada_-_Puerto_Plata.jpg"
-      alt="Playa Dorada beach in Puerto Plata, Dominican Republic">
+      src="https://images.unsplash.com/photo-1540541338287-41700207dee6?auto=format&fit=crop&w=1600&q=85"
+      alt="Beautiful tropical resort and swimming pool">
 
     <div class="hero-content">
 
@@ -494,12 +462,13 @@ body{
       </div>
 
       <h1>
-        Tropical Escape to the Dominican Republic
+        Your Tropical Dominican Republic Escape
       </h1>
 
       <p class="hero-sub">
-        <strong>6-Day / 5-Night Puerto Plata Resort Getaway</strong> —
-        enjoy a tropical beach resort experience with an all-inclusive stay.
+        <strong>6-Day / 5-Night Puerto Plata Resort Getaway</strong>
+        — enjoy an all-inclusive tropical beach resort experience for
+        the whole family.
       </p>
 
       <div class="hero-tag">
@@ -507,17 +476,11 @@ body{
       </div>
 
     </div>
-
   </section>
 
   <section class="welcome card">
-
     <h2>Welcome &amp; Thank You for Joining</h2>
-
-    <p>
-      Your Resort Stay Certificate will be released via email after the session.
-    </p>
-
+    <p>Your Resort Stay Certificate will be released via email after the session.</p>
   </section>
 
   <section class="card survey-card">
@@ -533,27 +496,25 @@ body{
       </h2>
 
       <p>
-        When you join the presentation, you'll be asked to complete a short
-        participant survey. This simply helps us get to know our audience
-        and understand who we're presenting to.
+        When you join the presentation, you'll be asked to complete
+        a short participant survey. This simply helps us get to know
+        our audience and understand who we're presenting to.
       </p>
 
       <p>
         Some questions may include your <strong>total household income</strong>
         and <strong>residency/citizenship</strong>. For household income,
-        please consider the <strong>combined income of everyone</strong> in your
-        household, including yourself, your spouse/partner, or other contributing
-        family members (<strong>ideally $50,000/year</strong>).
+        please consider the <strong>combined income of everyone</strong>
+        in your household, including yourself, your spouse/partner,
+        or other contributing family members
+        (<strong>ideally $50,000/year</strong>).
       </p>
 
       <div class="survey-highlight">
-
         <strong>
           The survey does not affect your ability to join the presentation.
         </strong>
-
         Everyone is welcome to attend!
-
       </div>
 
       <div class="survey-note">
@@ -571,12 +532,10 @@ body{
       <div class="bonus-icon">🎁</div>
 
       <div>
-
         <strong>+$100 Rewards Voucher Bonus</strong><br>
-
-        Use a <strong>laptop, desktop, or tablet</strong> for the best viewing
-        experience and receive the bonus on top of your Resort Stay Certificate.
-
+        Use a <strong>laptop, desktop, or tablet</strong> for the best
+        viewing experience and receive the bonus on top of your
+        Resort Stay Certificate.
       </div>
 
     </div>
@@ -586,23 +545,22 @@ body{
   <section class="card section">
 
     <img
-      class="hotel-photo"
-      src="https://upload.wikimedia.org/wikipedia/commons/5/55/Playa_Dorada_-_Puerto_Plata.jpg"
-      alt="Playa Dorada in Puerto Plata">
+      class="gift-photo"
+      src="https://images.unsplash.com/photo-1602002418082-a4443e081dd1?auto=format&fit=crop&w=1600&q=85"
+      alt="Tropical beach resort in the Dominican Republic">
 
     <h2>
       6-Day / 5-Night Puerto Plata Resort Getaway
     </h2>
 
     <p class="section-intro">
-      Enjoy a tropical beach resort experience in the Dominican Republic.
+      Enjoy a tropical all-inclusive resort experience in the Dominican Republic.
     </p>
 
     <ul class="benefits">
 
       <li>
-        Tropical beach resort in the
-        <strong>Dominican Republic</strong>
+        <strong>Tropical beach resort</strong> in the Dominican Republic
       </li>
 
       <li>
@@ -614,18 +572,17 @@ body{
       </li>
 
       <li>
-        Stay at
-        <strong>Lifestyle Tropical Beach Resort &amp; Spa</strong>
+        Stay at <strong>Lifestyle Tropical Beach Resort &amp; Spa</strong>
       </li>
 
       <li>
-        Enjoy a relaxing tropical getaway with the whole family
+        Enjoy a memorable family getaway surrounded by tropical scenery
       </li>
 
     </ul>
 
     <div class="closing">
-      Pack Your Bags — Puerto Plata Awaits!
+      Plan Your Tropical Escape, Travel Later!
     </div>
 
   </section>
@@ -634,7 +591,9 @@ body{
 
     <h2>Here’s Your Next Step</h2>
 
-    <p>Welcome, and thank you for finding time to join.</p>
+    <p>
+      Welcome, and thank you for finding time to join.
+    </p>
 
     <button class="start-btn" id="startBtnBottom">
       CLICK HERE TO START WATCHING THE PRESENTATION
@@ -659,16 +618,10 @@ body{
         <h3>Before You Continue</h3>
 
         <div class="safety">
-
-          <strong>
-            Please join from a quiet, stationary place.
-          </strong>
-
+          <strong>Please join from a quiet, stationary place.</strong>
           <br><br>
-
           For safety, we cannot accommodate participants who are driving
           or in a moving vehicle.
-
         </div>
 
         <button class="continue-btn" id="safetyContinue">
@@ -684,17 +637,18 @@ body{
         <div class="survey">
 
           <p>
-            When you join the presentation, you'll be asked to complete a short
-            participant survey. This simply helps us get to know our audience
-            and understand who we're presenting to.
+            When you join the presentation, you'll be asked to complete
+            a short participant survey. This simply helps us get to know
+            our audience and understand who we're presenting to.
           </p>
 
           <p>
             Some questions may include your <strong>total household income</strong>
             and <strong>residency/citizenship</strong>. For household income,
             please consider the <strong>combined income of everyone</strong>
-            in your household, including yourself, your spouse/partner, or
-            other contributing family members (<strong>ideally $50,000/year</strong>).
+            in your household, including yourself, your spouse/partner,
+            or other contributing family members
+            (<strong>ideally $50,000/year</strong>).
           </p>
 
           <p>
@@ -703,7 +657,8 @@ body{
           </p>
 
           <div class="survey note">
-            Please complete the short check-in when Zoom opens so the host can check you in.
+            Please complete the short check-in when Zoom opens so the host
+            can check you in.
           </div>
 
           <label class="check">
@@ -734,7 +689,9 @@ body{
 
             <div class="choice-icon">📱</div>
 
-            <strong>Mobile Phone</strong>
+            <strong>
+              Mobile Phone
+            </strong>
 
             <span>
               Go directly to the presentation.
@@ -788,7 +745,8 @@ body{
             id="email"
             type="email"
             autocomplete="email"
-            placeholder="you@example.com">
+            placeholder="you@example.com"
+          >
 
           <div class="email-note">
             We’ll send the Zoom meeting details to this email.
@@ -803,10 +761,8 @@ body{
         </div>
 
         <div class="zoom-note">
-
           <strong>Check your inbox.</strong>
           If you do not see it shortly, check spam or junk.
-
         </div>
 
         <button class="back" id="wideBack">
@@ -822,11 +778,8 @@ body{
 </div>
 
 <script>
-
 const MOBILE_LINK="https://live.travelaht.com/aht";
-
-const EMAIL_SCRIPT_URL=
-"https://script.google.com/macros/s/AKfycbwPXYcc6KWOaRs4fRITn5rpHlNw31gCyQIJLzqd96mZnBon6PKnh0GY9UL8_N4MPiUPoA/exec";
+const EMAIL_SCRIPT_URL="https://script.google.com/macros/s/AKfycbwPXYcc6KWOaRs4fRITn5rpHlNw31gCyQIJLzqd96mZnBon6PKnh0GY9UL8_N4MPiUPoA/exec";
 
 const modal=document.getElementById("modal");
 const safety=document.getElementById("safetyStep");
@@ -836,7 +789,6 @@ const wide=document.getElementById("wideStep");
 const statusBox=document.getElementById("status");
 
 function openModal(){
-
   safety.style.display="block";
   survey.style.display="none";
   choices.style.display="none";
@@ -852,17 +804,12 @@ function openModal(){
   statusBox.textContent="";
 
   modal.classList.add("open");
-
   document.body.style.overflow="hidden";
-
 }
 
 function closeModal(){
-
   modal.classList.remove("open");
-
   document.body.style.overflow="";
-
 }
 
 document.getElementById("startBtnTop")
@@ -875,64 +822,46 @@ document.getElementById("closeBtn")
 .addEventListener("click",closeModal);
 
 modal.addEventListener("click",e=>{
-
-  if(e.target===modal)
-    closeModal();
-
+  if(e.target===modal)closeModal();
 });
 
 document.addEventListener("keydown",e=>{
-
-  if(e.key==="Escape")
-    closeModal();
-
+  if(e.key==="Escape")closeModal();
 });
 
 document.getElementById("safetyContinue")
 .addEventListener("click",()=>{
-
   safety.style.display="none";
   survey.style.display="block";
-
 });
 
 const surveyOk=document.getElementById("surveyOk");
 const surveyContinue=document.getElementById("surveyContinue");
 
 surveyOk.addEventListener("change",()=>{
-
   surveyContinue.disabled=!surveyOk.checked;
-
 });
 
 surveyContinue.addEventListener("click",()=>{
-
   survey.style.display="none";
   choices.style.display="block";
-
 });
 
 document.getElementById("mobileChoice")
 .addEventListener("click",()=>{
-
   window.location.href=MOBILE_LINK;
-
 });
 
 document.getElementById("wideChoice")
 .addEventListener("click",()=>{
-
   choices.style.display="none";
   wide.style.display="block";
-
 });
 
 document.getElementById("wideBack")
 .addEventListener("click",()=>{
-
   wide.style.display="none";
   choices.style.display="block";
-
 });
 
 document.getElementById("sendZoom")
@@ -942,27 +871,21 @@ document.getElementById("sendZoom")
   const button=document.getElementById("sendZoom");
 
   if(!email.checkValidity()){
-
     email.reportValidity();
-
     return;
-
   }
 
   if(!EMAIL_SCRIPT_URL ||
      EMAIL_SCRIPT_URL.includes("PASTE_YOUR_")){
 
     statusBox.className="status error";
-
     statusBox.textContent=
       "Email sending is not connected yet.";
 
     return;
-
   }
 
   button.disabled=true;
-
   button.textContent="SENDING…";
 
   statusBox.className="status";
@@ -970,25 +893,18 @@ document.getElementById("sendZoom")
 
   try{
 
-    const response=await fetch(
-      EMAIL_SCRIPT_URL,
-      {
-        method:"POST",
-
-        headers:{
-          "Content-Type":
-          "application/x-www-form-urlencoded;charset=UTF-8"
-        },
-
-        body:new URLSearchParams({
-
-          action:"sendZoomDetails",
-          email:email.value.trim(),
-          source:"Puerto Plata Resort Join Now"
-
-        })
-      }
-    );
+    const response=await fetch(EMAIL_SCRIPT_URL,{
+      method:"POST",
+      headers:{
+        "Content-Type":
+        "application/x-www-form-urlencoded;charset=UTF-8"
+      },
+      body:new URLSearchParams({
+        action:"sendZoomDetails",
+        email:email.value.trim(),
+        source:"Puerto Plata Resort Join Now"
+      })
+    });
 
     const result=await response
       .json()
@@ -1015,11 +931,9 @@ document.getElementById("sendZoom")
 
     button.textContent=
       "SEND ZOOM DETAILS TO MY EMAIL";
-
   }
 
 });
-
 </script>
 
 </body>
